@@ -43,3 +43,51 @@ python main.py
 ## Контакты
 
 Если у вас есть вопросы или предложения, создайте issue или свяжитесь с автором проекта. 
+
+---
+
+# RIA News Parser
+
+This project is designed to parse news from the RIA website and save them in JSON format.
+
+## Description
+
+The script connects to the RIA website via a specified URL (in the format "https://ria.ru/.../"), collects news articles, and saves them to the `news.json` file in a convenient format.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <your_repository_URL>
+   cd parser
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+Run the main script:
+```bash
+python main.py
+```
+
+After execution, a `news.json` file with the parsed news will appear.
+
+## Project Structure
+
+- `main.py` — main script to run the parser.
+- `parser.py` — module with parsing logic.
+- `news.json` — file where news is saved.
+- `requirements.txt` — list of dependencies.
+
+## Requirements
+
+- Python 3.7+
+- Internet connection
+
+## Contacts
+
+If you have any questions or suggestions, create an issue or contact the project author. 
