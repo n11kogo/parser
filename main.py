@@ -2,10 +2,10 @@ import json
 from parser import RiaNews
 from dataclasses import asdict 
 
-URL_RiaSafety = "https://ria.ru/.../"
+URL_Ria = "https://ria.ru/.../"
 
 def main():
-    ria = RiaNews(URL_RiaSafety)
+    ria = RiaNews(URL_Ria)
     news = ria.get_news()
     # Сохраняем в JSON
     with open("news.json", "w", encoding="utf-8") as f:
