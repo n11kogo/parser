@@ -58,7 +58,7 @@ The script connects to the RIA website via a specified URL (in the format "https
 
 1. Clone the repository:
    ```bash
-   git clone <your_repository_URL>
+   git clone https://github.com/n11kogo/parser
    cd parser
    ```
 
